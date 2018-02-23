@@ -19,6 +19,6 @@ sudo apt-get install python-dev;
 sudo apt-get install python–m2crypto;
 
 #启动shadowsocks,-p [参数，自己改] -k [密码，自己改] -m [加密方式] -d [start/stop]
-sudo ssserver -p 8388 -k password -m rc4-md5 -d start
+sudo ssserver -p 666 -k ss_password_123 -m rc4-md5 -d start
 
 
